@@ -1,0 +1,228 @@
+/* CSS Reset */
+
+html {
+    background-color: #1D1E21;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Navbar */
+
+.topnav {
+    margin: 0;
+    margin-bottom: 3em;
+    padding: 0;
+    background: #1D1E21;
+    -webkit-box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36); 
+    box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36);
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.topnav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.topnav li {
+  font-family: 'Montserrat', sans-serif;
+  font-style: regular;
+  font-size: 1.25em;
+  line-height: 40px;
+  display: inline-block;
+  height: 100%;
+  margin: 8px 16px;
+}
+
+.topnav a {
+  display: block;
+  text-decoration: none;
+  color: #A09595;
+  transition: color .3s linear;
+}
+
+.topnav a:hover {
+  color: #FFF;
+}
+
+.topnav .left {
+  float: left;
+}
+
+.topnav .right {
+  float: right;
+}
+
+.nav-active a {
+  border-bottom: 2px solid #F75C6B;
+  color: #FFF
+}
+
+/* Headers */
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 75px;
+  font-size: 24px;
+}
+
+h3 {
+font-size: 22px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+.highlight {
+    transition: ease-out .15s ;
+    color: #F75C6B;
+}
+  
+  .highlight:hover {
+  color: #fd9292;
+}
+
+.showcase-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Showcases */
+
+/* .showcase {
+-webkit-box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36); 
+box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36);
+height: 26em;
+padding: 0px;
+margin: 20px;
+width: 16%;
+text-align: center;
+background-color: #2A2A2B;
+overflow: hiden;
+position: relative;
+transition: background-color .15s linear;
+}
+
+.showcase:hover {
+background-color: #424242;
+}
+
+.showcase a {
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 5;
+} */
+
+/* Resume */
+
+#resume embed {
+  width: 99vw;
+  height: 91vh;
+  margin: 0px;
+  margin-top: -3em;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36); 
+  box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36);
+}
+
+/* About Page */
+
+#about-container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+#about-picture img {
+display: block;
+max-width: 300px;
+max-height: 300px;
+height: auto;
+width: auto;
+padding: 0px;
+border-radius: 50%;
+margin: 30px;
+}
+#about-text {
+padding: 0px;
+margin: 0px;
+right: 0px;
+width: 45em;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+}
+
+
+#about-text>h1 {
+text-align: left;
+margin-top: 30px;
+margin-bottom: 45px;
+}
+#about-text>p {
+font-size: 1.1em;
+}
+
+/* Contact */
+
+#contact-container {
+  display: flex;
+  margin-top: 6em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+
+.fa-4x {
+  vertical-align: middle;
+}
+
+#contact-phone {
+  width: 100%;
+  margin-left: 70%;
+  
+}
+
+#contact-email {
+  width: 100%;
+  margin-left: 70%;
+}
+
+#contact-email a > i{
+  color: #FFF;
+}
+
+#linkedin-icon {
+  color: #FFF;
+  margin-right: .18em;
+}
+
+#mail-icon {
+  margin-right: .18em;
+}

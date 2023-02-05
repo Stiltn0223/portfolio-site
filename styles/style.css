@@ -100,6 +100,17 @@ a {
   color: #fd9292;
 }
 
+.center-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.underline {
+  display: inline-block;
+  border-bottom: solid #F75C6B 6px;
+}
+
 .showcase-container {
   display: flex;
   justify-content: center;

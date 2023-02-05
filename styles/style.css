@@ -10,7 +10,7 @@ html {
 
 .topnav {
     margin: 0;
-    margin-bottom: 3em;
+    margin-bottom: 6em;
     padding: 0;
     background: #1D1E21;
     -webkit-box-shadow: 2px 1px 8px 3px rgba(0,0,0,0.36); 
@@ -98,6 +98,17 @@ a {
   
   .highlight:hover {
   color: #fd9292;
+}
+
+.center-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.underline {
+  display: inline-block;
+  border-bottom: solid #F75C6B 6px;
 }
 
 .showcase-container {
